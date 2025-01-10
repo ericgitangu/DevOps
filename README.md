@@ -1,4 +1,4 @@
-# 🦄 deveric-nextjs-15-scafold-app
+# 🦄 deveric-nextjs-15-scaffold-app
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
