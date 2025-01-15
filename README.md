@@ -45,21 +45,9 @@ Before running the scaffolding script, ensure you have the following installed o
 - **Git**
 - **jq** (for JSON processing)
 
-### 📜 Running the Scaffolding Script
+### 📜 Running the App Generated from the Scaffolding Script
 
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/EricGitangu/deveric-nextjs-15-scafold-app.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd deveric-nextjs-15-scafold-app
-   ```
-
-3. **Make the Script Executable:**
+1. **Make the Script Executable:**
 
    If the script isn't already executable, grant execute permissions:
 
@@ -67,7 +55,7 @@ Before running the scaffolding script, ensure you have the following installed o
    chmod +x next-app.sh
    ```
 
-4. **Run the Setup Script:**
+2. **Run the Setup Script:**
 
    ```bash
    ./next-app.sh
@@ -124,7 +112,7 @@ A **Next.js 15 (App Router)** project with **TypeScript**, **dark-mode** **Mater
 
 ## 🔧 Installation
 
-Clone the repository and install the dependencies using your preferred package manager.
+Clone the repository and install the dependencies using your preferred package manager (if you wish to modify the generated app directly, **it's recommended you use the script to set your preferences**).
 
 ```bash
 git clone https://github.com/EricGitangu/deveric-nextjs-15-scafold-app.git
@@ -150,7 +138,7 @@ yarn dev
 
 ## 🧪 Testing
 
-This project includes a comprehensive testing setup covering unit, integration, and end-to-end tests.
+This project includes a comprehensive testing setup covering unit, integration, and end-to-end tests. Assuming yarn as our package manager but pnpm & npm support available).
 
 ### Unit Tests (Jest)
 
@@ -315,7 +303,7 @@ deveric-nextjs-15-scafold-app/
    - Import your GitHub repository.
    - Follow the prompts to deploy.
 
-> **Tip:** Ensure environment variables and secrets are correctly configured in your deployment platform.
+> **Tip:** Ensure environment variables and secrets are correctly configured in your deployment platform for OAuth and next-auth.
 
 ---
 
